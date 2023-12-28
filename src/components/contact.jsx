@@ -1,40 +1,54 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+
 
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [formData, setFormData] = useState(initialState);
+  const [messageSent, setMessageSent] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
-  
-  
+
+  const clearFormData = () => {
+    setFormData({ ...initialState });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_yck2nz4", "template_7s265lq", e.target, "9niPA7-v7BOce8eLm")
       .then(
         (result) => {
           console.log(result.text);
-          clearState();
+          setMessageSent(true);
+          clearFormData();
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
+  useEffect(() => {
+    if (messageSent) {
+      const timeoutId = setTimeout(() => {
+        setMessageSent(false);
+      }, 5000);
+
+      return () => clearTimeout(timeoutId);
+    }
+  }, [messageSent]);
+
   return (
     <div>
       <div id="contact">
@@ -49,7 +63,7 @@ export const Contact = (props) => {
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
+               <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
@@ -59,6 +73,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={formData.name}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -73,6 +88,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={formData.email}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -87,18 +103,25 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={formData.message}
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
+                <div id="success">
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
+                  {messageSent && (
+                    <div className="alert alert-success fade-out" role="alert">
+                      Message sent successfully!
+                    </div>
+                  )}
+                </div>
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+       <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
@@ -135,13 +158,13 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.linkedin : "/"}>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                 </ul>
@@ -153,13 +176,11 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy;2023 The Entrepreneurship Cell | UCOE
           </p>
         </div>
       </div>
     </div>
   );
 };
+

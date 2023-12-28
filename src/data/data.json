@@ -1,184 +1,233 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Ignite the Entrepreneur within you 🔥",
+    "paragraph": "We the E-CELL UCOE are in collaboration with the E-CELL IIT-Bombay "
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "To Be the Best and Most Important Student Organization. Best for raising entrepreneurial and management awareness, cultivating educated and skilled entrepreneurs, and empowering job givers and job seekers. It is significant because we provide students with a platform and resources to learn about entrepreneurship and start their own businesses.",
+
+    "paragraph2": "We Want to Help Aspiring Entrepreneurs Solve Problems & Create Successful businesses, Create the Right Atmosphere, Providing Mentorship, and Conducting Events. We’re Just a Team of Like-Minded Students Who Want to Sow Seeds of Entrepreneurship & Development in Each & Every Fellow Student."
+    
   },
+  "Features": [
+    {
+      "title": "PITCH PERFECT 1.0",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "title": "PITCH PERFECT 2.0",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "title": "E-CELL ORIENTATION",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "title": "SvAWALAMBI ABYAN",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ],
+
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/portfolio/team.jpeg",
+      "smallImage": "img/portfolio/team.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/portfolio/start.jpeg",
+      "smallImage": "img/portfolio/start.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "img/portfolio/patil sir.jpeg",
+      "smallImage": "img/portfolio/patil sir.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/portfolio/pitch1.jpeg",
+      "smallImage": "img/portfolio/pitch1.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/portfolio/pitch.jpeg",
+      "smallImage": "img/portfolio/pitch.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/portfolio/nec.jpeg",
+      "smallImage": "img/portfolio/nec.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/portfolio/team1.jpeg",
+      "smallImage": "img/portfolio/team1.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/portfolio/1.jpeg",
+      "smallImage": "img/portfolio/1.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/portfolio/2.jpeg",
+      "smallImage": "img/portfolio/2.jpeg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/3.jpeg",
+      "smallImage": "img/portfolio/3.jpeg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/4.jpeg",
+      "smallImage": "img/portfolio/4.jpeg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Wordpress Blogs",
+      "text": "https://ucoeecell9.wordpress.com/"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-medium",
+      "name": "Blogs on Medium.com",
+      "text": "https://medium.com/@ecell.technical"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-whatsapp",
+      "name": "Get Latest News Here",
+      "text": "https://www.instagram.com/ucoe.ecell/"
     }
   ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
+
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/hasib sir.jpg",
+      "name": "Dr. Hasib Shaikh",
+      "job": "Faculty Advisor"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/pawan1.jpg",
+      "name": "Pawan Mishra",
+      "job": "President"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/aditya.jpg",
+      "name": "Aditya Singh",
+      "job": "Vice-President"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/vishank.jpg",
+      "name": "Vishank Mishra",
+      "job": "Secretary"
+    },
+    {
+      "img": "img/team/Prapti Palande.jpg",
+      "name": "Prapti Palande",
+      "job": "Joint-Secretary"
+    },
+    {
+      "img": "img/team/abie.jpg",
+      "name": "Abie Koshy",
+      "job": "Technical Head"
+    },
+    {
+      "img": "img/team/pravin.jpg",
+      "name": "Pravin Maurya",
+      "job": "Technical Head"
+    },
+    {
+      "img": "img/team/Priyanka Mourya.jpg",
+      "name": "Priyanka Mourya",
+      "job": "Events Head"
+    },
+    {
+      "img": "img/team/Harsh Pandey.jpg",
+      "name": "Harsh Pandey",
+      "job": "Events Head"
+    },
+    {
+      "img": "img/team/swati.jpg",
+      "name": "Swati Pandey",
+      "job": "Public Relations Officer"
+    },
+    {
+      "img": "img/team/dheeraj.jpg",
+      "name": "Dheeraj Updadhyay",
+      "job": "Marketing Head"
+    },
+    {
+      "img": "img/team/jidnyasee.jpg",
+      "name": "Jidnyasee Jagtap",
+      "job": "Social Media Manager"
+    },
+    {
+      "img": "img/team/sadiya.jpg",
+      "name": "Sadiya Shaikh",
+      "job": "Social Media Executive"
+    },
+    {
+      "img": "img/team/deepak.jpg",
+      "name": "Deepak Prajapati",
+      "job": "Event"
+    },
+    {
+      "img": "img/team/vivek.jpg",
+      "name": "Vivek Maurya",
+      "job": "Technical Executive"
+    },
+    {
+      "img": "img/team/krishna.jpg",
+      "name": "Krishna Patidar",
+      "job": "Technical Executive"
+    },
+    {
+      "img": "img/team/harsh yadav.jpg",
+      "name": "Harsh Yadav",
+      "job": "Technical Executive"
+    },
+    {
+      "img": "img/team/harshita.jpg",
+      "name": "Harshita Gupta",
+      "job": "Technical Executive"
+    },
+    {
+      "img": "img/team/Deep Agrawal.jpg",
+      "name": "Deep Agrawal",
+      "job": "Public Executive"
+    },
+    {
+      "img": "img/team/hitesh.jpg",
+      "name": "Hitesh Chaudhory",
+      "job": "Public Executive"
+    },
+    {
+      "img": "img/team/Rajeshwar Bura.jpg",
+      "name": "Rajeshwar Bura",
+      "job": "Event Executive"
+    },
+    {
+      "img": "img/team/sakshi.jpg",
+      "name": "Sakshi Sonar",
+      "job": "Event Executive"
+    },
+    {
+      "img": "img/team/Dhananjay Datir.jpg",
+      "name": "Dhananjay Datir",
+      "job": "Public Executive"
     }
+    
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Kaman-Bhiwandi Road, Vasai-E, Palghar – 401208",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+    "email": "ecell.techical@gmail.com",
+    "facebook": "https://www.facebook.com/Ecellucoe",
+    "instagram": "https://www.instagram.com/ucoe.ecell/",
+    "linkedin": "https://www.linkedin.com/in/ecell-ucoe-1995a6298/"
+  }
+
 }

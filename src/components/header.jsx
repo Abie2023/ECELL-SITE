@@ -14,10 +14,10 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
+                  href="https://www.ecell.in/nec/landing#/landing" target="_blank"
+                  rel="noopener noreferrer" className="btn btn-custom btn-lg page-scroll"
                 >
-                  Learn More
+                  Learn About NEC
                 </a>{" "}
               </div>
             </div>
