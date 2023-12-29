@@ -12,77 +12,59 @@
   "Features": [
     {
       "title": "PITCH PERFECT 1.0",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "The Event was held on September'22 at the seminar hall of the UCOE Campus. It resembles the famous 'Shark Tank'"
     },
     {
       "title": "PITCH PERFECT 2.0",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "The Event was held on October 2023 at the seminar hall of the UCOE Campus. It resembles the famous 'Shark Tank'"
     },
     {
       "title": "E-CELL ORIENTATION",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "The E-Cell orientation programme was conducted on September'22. The New Team was officially assigned their post's"
     },
     {
-      "title": "SvAWALAMBI ABYAN",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "SVAWALAMBI ABYYAN",
+      "text": "The Event was to motivate students and emphasized on having a Entrepreneurship Mindset."
     }
   ],
 
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/team.jpeg",
+      "title": "TEAM UCOE 2023",
       "smallImage": "img/portfolio/team.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/start.jpeg",
-      "smallImage": "img/portfolio/start.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/patil sir.jpeg",
-      "smallImage": "img/portfolio/patil sir.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/pitch1.jpeg",
-      "smallImage": "img/portfolio/pitch1.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/pitch.jpeg",
-      "smallImage": "img/portfolio/pitch.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/nec.jpeg",
-      "smallImage": "img/portfolio/nec.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/team1.jpeg",
-      "smallImage": "img/portfolio/team1.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/1.jpeg",
-      "smallImage": "img/portfolio/1.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/2.jpeg",
-      "smallImage": "img/portfolio/2.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/3.jpeg",
+      "title": "TEAM UCOE 2022",
       "smallImage": "img/portfolio/3.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/4.jpeg",
+      "title": "AT THE NEC",
+      "smallImage": "img/portfolio/nec.jpeg"
+    },
+    {
+      "title": "E-CELL BEGINNINGS",
+      "smallImage": "img/portfolio/start.jpeg"
+    },
+    {
+      "title": "PITCH PERFECT",
+      "smallImage": "img/portfolio/patil sir.jpeg"
+    },
+    {
+      "title": "WINNERS '22",
+      "smallImage": "img/portfolio/1.jpeg"
+    },
+
+    {
+      "title": "MAHARASHTRA STARTUP YATRA",
+      "smallImage": "img/portfolio/2.jpeg"
+    },
+    {
+      "title": "SVAWALAMBI ABYYAN",
       "smallImage": "img/portfolio/4.jpeg"
+    },
+    {
+      "title": "PITCH PERFECT 1.0 PARTICIPANT",
+      "smallImage": "img/portfolio/pitch.jpeg"
     }
   ],
   "Services": [
@@ -165,6 +147,11 @@
       "job": "Social Media Manager"
     },
     {
+      "img": "img/team/vivek.jpg",
+      "name": "Vivek Maurya",
+      "job": "Technical Executive"
+    },
+    {
       "img": "img/team/sadiya.jpg",
       "name": "Sadiya Shaikh",
       "job": "Social Media Executive"
@@ -172,12 +159,37 @@
     {
       "img": "img/team/deepak.jpg",
       "name": "Deepak Prajapati",
-      "job": "Event"
+      "job": "Events Executive"
     },
     {
-      "img": "img/team/vivek.jpg",
-      "name": "Vivek Maurya",
+      "img": "img/team/Dhananjay Datir.jpg",
+      "name": "Dhananjay Datir",
+      "job": "Public Relations Executive"
+    },
+    {
+      "img": "img/team/hitesh.jpg",
+      "name": "Hitesh Chaudhory",
+      "job": "Public Relations Executive"
+    },
+    {
+      "img": "img/team/Deep Agrawal.jpg",
+      "name": "Deep Agrawal",
+      "job": "Public Relations Executive"
+    },
+    {
+      "img": "img/team/harshita.jpg",
+      "name": "Harshita Gupta",
       "job": "Technical Executive"
+    },
+    {
+      "img": "img/team/Rajeshwar Bura.jpg",
+      "name": "Rajeshwar Bura",
+      "job": "Events Executive"
+    },
+    {
+      "img": "img/team/sakshi.jpg",
+      "name": "Sakshi Sonar",
+      "job": "Events Executive"
     },
     {
       "img": "img/team/krishna.jpg",
@@ -188,36 +200,6 @@
       "img": "img/team/harsh yadav.jpg",
       "name": "Harsh Yadav",
       "job": "Technical Executive"
-    },
-    {
-      "img": "img/team/harshita.jpg",
-      "name": "Harshita Gupta",
-      "job": "Technical Executive"
-    },
-    {
-      "img": "img/team/Deep Agrawal.jpg",
-      "name": "Deep Agrawal",
-      "job": "Public Executive"
-    },
-    {
-      "img": "img/team/hitesh.jpg",
-      "name": "Hitesh Chaudhory",
-      "job": "Public Executive"
-    },
-    {
-      "img": "img/team/Rajeshwar Bura.jpg",
-      "name": "Rajeshwar Bura",
-      "job": "Event Executive"
-    },
-    {
-      "img": "img/team/sakshi.jpg",
-      "name": "Sakshi Sonar",
-      "job": "Event Executive"
-    },
-    {
-      "img": "img/team/Dhananjay Datir.jpg",
-      "name": "Dhananjay Datir",
-      "job": "Public Executive"
     }
     
   ],
